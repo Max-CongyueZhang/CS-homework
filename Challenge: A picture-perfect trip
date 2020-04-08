@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Spin-off of "Challenge: A picture-perfect trip"</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+    <style>
+        body {
+            background-color:rgb(0,0,0);
+        }
+        
+        h1 {
+            color:rgb(255,255,255);
+        }
+        
+        p {
+            color:rgb(255,255,0);
+        }
+        </style>
+        <h1>The perfect trip</h1>
+        <p>I would see scenes like snow mountain.</p>
+        <img src = "https://www.kasandbox.org/programming-images/landscapes/mountain_matterhorn.png" alt="snow mountain" width="300" >
+        <p>And animals like fox.</p>
+        <img src = "https://www.kasandbox.org/programming-images/animals/fox.png" alt="fox" width="300">
+        <p>And eat food like ice cream. </p>
+        <img src = "https://www.kasandbox.org/programming-images/food/ice-cream.png" alt="ice cream" width="300">
+    </body>
+</html>
