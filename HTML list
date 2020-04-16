@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HTML list</title>
+        <style>
+            h1 {color:gray;}
+            .subtitle {color:orange;}
+        </style>
+    </head>
+    <body>
+    
+        <h1>What I Have Learned about HTML</h1>
+        <h2 class="subtitle">Contents</h2>
+        <ul>
+            <li>html basics</li>
+            <li>emphasis</li>
+            <li>lists</li>
+            <li>images</li>
+            <li>sounds</li>
+            <li>videos</li>
+            <li>css basics</li>
+            <li>selecting by id</li>
+            <li>selecting by class</li>
+        </ul>
+        
+        <h2 class="subtitle">html basics</h2>
+        <p>
+            ""is used to replace less than sign and greater than sign.<br>
+            <br> 
+            The basic format of html is like following:<br> 
+            "!DOCTYPE html"<br> 
+            "html"<br> 
+                "head"<br> 
+                    "meta charset="utf-8""<br> 
+                    "title" "/title"<br> 
+                "/head"<br> 
+                "body"<br> 
+                "/body"<br> 
+            "/html"<br> 
+            <br> 
+            "h1" "/h1" is used for title.<br> 
+            <br> 
+            "h2" "/h2" is used for subtitles.<br> 
+            <br> 
+            "p" "/p" is used for paragraph.<br> 
+            <br> 
+            "br" is used for changing to next row.
+        </p>
+            
+            <h2 class="subtitle" >emphasis</h2>
+            <p>
+                "em" "/em" is used for italic.<br>
+                <br> 
+                "strong "/strong" is used for bold.
+            </p>
+            
+            <h2 class="subtitle">lists</h2>
+            <p>
+                "ul" "/ul" is used for unordered list.<br> 
+                <br> 
+                "ol" "/ol" is used for ordered list.
+            </p>
+            
+            <h2 class="subtitle">images</h2>
+            <p>
+                "img src="an url for image" alt="description of the image">is used for getting a image.<br> 
+                An example:<br>
+                <img src="https://www.kasandbox.org/programming-images/animals/cat.png" alt="cat" width="400">
+            </p>
+            
+            <h2 class="subtitle">sounds</h2>
+            <p>
+            "audio controls"<br>
+                    "an url for sound"<br>
+                    Your browser does not support the audio element.<br>
+                "/audio"<br>
+                is used for adding a sound.<br>
+                An exmple:<br>
+                <audio controls>
+  <source src="http://static1.grsites.com/archive/sounds/animals/animals022.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+            </p>
+            
+            <h2 class="subtitle">videos</h2>
+            <p>
+            "iframe width="a" height="b5"<br>
+src="and url for video""<br>
+"/iframe"<br>
+            is used for adding a video.
+            an example:<br>
+            <iframe width="420" height="315"
+src="https://www.youtube.com/embed/BtN-goy9VOY">
+</iframe>
+            </p>
+            <h2 class="subtitle">css basics</h2>
+            <p>
+            "style"<br>
+            h1 {<br>
+            color:blue;<br>
+            }<br>
+            "/style"<br>
+            is used for coloring your title.
+            </p>
+            
+            <h2 class="subtitle" >selecting by id</h2>
+            <p>
+            "p id="name"" <br>"/p"<br>
+            is used for naming a paragraph.
+            <br><br>
+            "style"<br>
+            #name {<br>
+            color:blue;<br>
+            }<br>
+            "style"<br>
+            is used for coloring the named paragraph.
+            </p>
+            
+            <h2 class="subtitle">selecting by class</h2>
+            <p>
+            "p class="name"" <br>"/p"<br>
+            is used for classifing a series of paragraph.
+            <br><br>
+            "style"<br>
+            .name {<br>
+            color:blue;<br>
+            }<br>
+            "style"<br>
+            is used for coloring the series of paragraph.
+            </p>
+    </body>
+</html>
